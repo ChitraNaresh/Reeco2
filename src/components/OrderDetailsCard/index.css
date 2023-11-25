@@ -1,0 +1,44 @@
+.order-details-card{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+.about-cart-details{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.each-supplier-card-heading{
+    font-family: "Roboto";
+    font-size: 12px;
+}
+.each-supplier-card-name{
+    font-family: "Roboto";
+    font-size: 10px;
+    color: gray;
+}
+.order-dtails-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.4);
+    margin-top: 10px;
+    padding:0px 20px 10px 20px
+}
+.supplier-card{
+    width: 32%;
+    padding-left: 5px;
+    box-shadow:0px 0px 3px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+@media screen and (min-width:768px) {
+    .order-dtails-content{
+        width:80%;
+    }
+    .supplier-card{
+        width: 15%;
+    }
+}

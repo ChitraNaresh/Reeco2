@@ -1,0 +1,131 @@
+.main-card{
+    background-color:green;
+    height: 8vh;
+    min-height: 8vh;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.header-container{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.review-button{
+    margin-right: 20px;
+    height:25px;
+    background-color:transparent;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-family: "Roboto";
+    outline: none;cursor: pointer;
+}
+.link{
+    text-decoration: none;
+}
+.app-name{
+    font-size: 20px;
+    font-family: "Roboto";
+    color: #fff;
+    font-weight: 600;
+}
+.nav-links-card{
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+}
+.user-name,.each-nav-link{
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #ffffffe8;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.drop-down{
+    color: #fff;
+    height: 20px;
+    width: 20px;
+}
+.content-card{
+   display: flex;
+   align-items: center;
+}
+.cart-icon{
+    color: #fff;
+    height: 25px;
+    width: 25px;
+}
+.user-details-card{
+    display: flex;
+    align-items: center;
+}
+.cart-count-bg{
+    background-color:rgb(43, 244, 96);
+    height: 20px;
+    width: 20px;
+    flex-grow: 1;
+    border-radius: 60%;
+    font-family: "Roboto";
+    color: #fff;
+    font-size: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    position: relative;
+    top: 12px;
+    left: 13px;
+}
+.menu-icon{
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width:576px) {
+    .nav-card{
+        display: none;
+    }
+    .user-name{
+        display: none;
+    }
+}
+.menu-card-mb{
+    height: 92vh;
+    position: fixed;
+    width: 200px;
+    top: 8vh;
+    background-color:green;
+    padding: 20px;
+}
+.nav-links-card-mb{
+    padding: 0px;
+    list-style-type: none;
+    flex-direction: column;
+}
+.mb-user{
+    font-family: "Roboto";
+    color: #fff;
+    font-size: 20px;
+}
+.cancel-icon-card{
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (min-width:568px) {
+    .menu-icon{
+      display: none;
+    }
+  }
+  @media screen and (min-width:768px) {
+    .header-container{
+      width: 80%;
+    }
+  }

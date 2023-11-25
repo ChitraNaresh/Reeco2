@@ -1,0 +1,107 @@
+.list-text{
+    font-family: "Roboto";
+    font-size: 10px;
+    color:gray;
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.product-icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.status{
+    display: flex;
+    align-items: center;
+    background-color: rgb(251, 237, 237);
+    height: 48px;
+}
+.each-product-card{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20% 10% 10% 10% 10% 40%;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+}
+.product-para{
+    display: flex;
+    align-items: center;
+}
+.edit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.approve-color{
+    color:rgb(64, 240, 64);
+}
+.block-color{
+    color: red;
+}
+.actual-price{
+    text-decoration: line-through;
+    font-family: "Roboto";
+    font-size: 10px;
+    color:#000;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+.approved-btn{
+    max-width: 100px;
+    min-width: 60px;
+    min-height: 30px;
+    background-color:rgb(64, 240, 64);
+    border-radius: 15px;
+    color:#fff;
+    font-size: 10px;
+    font-family: "Roboto";
+    border: none;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    max-height: 30px;
+    margin-right: 5px;
+}
+.block-btn{
+    max-width:100px;
+    min-width: 60px;
+    margin-right: 5px;
+    background-color:red;
+    border-radius: 15px;
+    min-height: 30px;
+    color:#fff;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Roboto";
+    border: none;
+    cursor: pointer;
+    padding: 0px 5px 0px 5px;cursor: pointer;   
+    height: 20px;
+}
+.approved-icon,.blocked-icon{
+    height: 17px;
+    width: 17px;
+    cursor: pointer;
+}
+.edit-btn{
+    font-size: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Roboto";
+}
+.edit-card{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    justify-self: flex-end;
+}
+.status-btns{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
