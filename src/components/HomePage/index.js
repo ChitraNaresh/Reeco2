@@ -16,6 +16,7 @@ import {
   AddItemButton,
   AllOrdersContainer,
   FinalOrderContainer,
+  HomePageCard,
   HomePageContent,
   InputEl,
   ListOfProducts,
@@ -99,7 +100,7 @@ const HomePage = () => {
     eachProduct?.productName?.toLowerCase().includes(searchValue.toLowerCase())
   );
   return (
-    <HomePage>
+    <HomePageCard>
       {isShowMiniPopup && renderSimplePopup()}
       {isShowCustomPopup && (
         <CustomPopup cancelBtn={() => setCustomPopUp(false)} />
@@ -152,7 +153,7 @@ const HomePage = () => {
           </div>
         </AllOrdersContainer>
       </HomePageContent>
-    </HomePage>
+    </HomePageCard>
   );
 };
 

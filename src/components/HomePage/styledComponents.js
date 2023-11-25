@@ -7,7 +7,7 @@ color: grey;
 font-weight: 400;
 box-shadow: 0px 0px 1px rgba(0,0,0,0.3);
 `
-export const HomePage=styled.div`
+export const HomePageCard=styled.div`
 width: 100%;
     display: flex;
     justify-content: center;
