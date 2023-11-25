@@ -75,10 +75,10 @@ const EachProduct = ({ eachItem, customPopup, showMiniPopup }) => {
         <span>{productName}</span>
       </p>
       <p className="list-text">{brand}</p>
-      <p className="list-text">
+      <p className="list-text price-el product-price">
         {price} Rupees{" "}
         {parseInt(price) !== actualPrice && pathname === "/" && (
-          <span className="actual-price">{actualPrice} Rs</span>
+          <p className="actual-price">{actualPrice} Rs</p>
         )}
       </p>
       <p className="list-text quantity">

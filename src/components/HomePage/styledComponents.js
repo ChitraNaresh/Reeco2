@@ -5,7 +5,6 @@ font-family: "Roboto";
 font-size: 12px;
 color: grey;
 font-weight: 400;
-box-shadow: 0px 0px 1px rgba(0,0,0,0.3);
 `
 export const HomePageCard=styled.div`
 width: 100%;
@@ -65,12 +64,10 @@ height: 30px;
 `
 export const FinalOrderContainer=styled.div`
 min-width: 600px;
-overflow: auto;
 `
 export const ListOfProducts=styled.ul`
 padding: 0px;
 list-style-type: none;
-overflow: auto;
 box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
 min-width: 700px;
 `
@@ -78,6 +75,7 @@ export const TableColumnsHeeadCard=styled.li`
 display: grid;
 grid-template-columns: 20% 10% 10% 10% 10% 40%;;
 box-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+padding:0px 10px 0px 10px
 `
 export const SimplePopUpContainer=styled.div`
 height: 100vh;
